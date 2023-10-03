@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="14dp" android:drawable="@drawable/arrow_right"/>
+    <item android:top="14dp" android:drawable="@drawable/arrow_left"/>
+</layer-list>
