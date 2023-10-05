@@ -1,12 +1,12 @@
-package com.example.mospolytechgid
+package com.example.mospolytechgid.view
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.Switch
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import com.example.mospolytechgid.R
 
-class SettingsActivity : AppCompatActivity(){
+class SettingsActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "UseSwitchCompatOrMaterialCode")
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -30,8 +30,6 @@ class SettingsActivity : AppCompatActivity(){
                 //btn.text = "Темный режим выключен"
             }
         }*/
-
-
 
 
     }

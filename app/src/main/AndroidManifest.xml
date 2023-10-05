@@ -12,46 +12,40 @@
         android:theme="@style/Theme.MospolytechGid"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity3"
-            android:exported="true"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:name=".view.CorpusListActivity"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".view.BSCorpusListActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".MainActivity5"
+            android:name=".view.PKCorpusListActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".MainActivity6"
+            android:name=".view.MikhCorpusListActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".MainActivity2"
+            android:name=".view.PrCorpusListActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".view.AvtCorpusListActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".view.CampusActivity" />
         <activity
-            android:name=".SecActivity"
+            android:name=".view.AvtCorpus5Activity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".view.CampusActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".view.SettingsActivity"
             android:exported="false"
-            android:parentActivityName=".SecActivity"
+            android:parentActivityName=".view.AvtCorpus5Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".view.StartScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -61,10 +55,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".view.CampusActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

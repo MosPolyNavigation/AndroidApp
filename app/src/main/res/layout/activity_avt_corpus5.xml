@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/BACKGROUND"
-    tools:context=".SecActivity">
+    tools:context=".view.AvtCorpus5Activity">
 
 
     <Button
@@ -13,7 +13,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_last"
+        android:background="@drawable/ui_btn_flor_last"
         android:text="9"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -27,7 +27,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="8"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -41,7 +41,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="7"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -55,7 +55,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="6"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -69,7 +69,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="5"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -83,7 +83,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="4"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -97,7 +97,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="3"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -111,7 +111,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_2"
+        android:background="@drawable/ui_btn_flor_2"
         android:text="2"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -125,7 +125,7 @@
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_flor_1"
+        android:background="@drawable/ui_btn_flor_1"
         android:text="1"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -238,7 +238,7 @@
             android:layout_width="473dp"
             android:layout_height="541dp"
             android:scaleType="centerInside"
-            android:src="@drawable/av_4_3" />
+            android:src="@drawable/map_av_4_3" />
 
 
     </com.otaliastudios.zoom.ZoomLayout>
@@ -275,28 +275,28 @@
                     android:id="@+id/button2"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color2"
+                    android:background="@drawable/ui_color2"
                     android:text="Туалет Ж" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/bmtoil"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color1"
+                    android:background="@drawable/ui_color1"
                     android:text="Туалет М" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button3"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color5"
+                    android:background="@drawable/ui_color5"
                     android:text="Коворкинг" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button4"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color4"
+                    android:background="@drawable/ui_color4"
                     android:text="Аудитории" />
 
 
@@ -304,21 +304,21 @@
                     android:id="@+id/button5"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color3"
+                    android:background="@drawable/ui_color3"
                     android:text="Буфет" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button6"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color6"
+                    android:background="@drawable/ui_color6"
                     android:text="Библиотека" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button7"
                     style="@style/button_choose_room_on_map"
                     android:layout_height="25dp"
-                    android:background="@drawable/color8"
+                    android:background="@drawable/ui_color8"
                     android:text="Вход/Выход" />
 
             </LinearLayout>
@@ -359,7 +359,7 @@
                 android:scaleType="centerCrop"
                 android:scaleX="1"
                 android:scaleY="1"
-                android:src="@drawable/x"
+                android:src="@drawable/ui_x"
                 app:layout_constraintBottom_toBottomOf="@+id/etRoomFrom"
                 app:layout_constraintEnd_toEndOf="@+id/etRoomFrom"
                 app:layout_constraintTop_toTopOf="@+id/etRoomFrom"
@@ -370,7 +370,7 @@
                 android:layout_width="23dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/arrows"
+                android:background="@drawable/ui_arrows"
                 android:contentDescription="TODO"
                 android:onClick="swapRooms"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -404,7 +404,7 @@
                 android:scaleType="centerCrop"
                 android:scaleX="1"
                 android:scaleY="1"
-                android:src="@drawable/x"
+                android:src="@drawable/ui_x"
                 app:layout_constraintBottom_toBottomOf="@+id/etRoomTo"
                 app:layout_constraintEnd_toEndOf="@+id/etRoomTo"
                 app:layout_constraintTop_toTopOf="@+id/etRoomTo"
@@ -435,7 +435,7 @@
             app:layout_constraintHorizontal_bias="0.454"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/corpus"
+            app:srcCompat="@drawable/ui_corpus"
             android:contentDescription="c est une petite image"/>
 
         <ImageButton
@@ -452,7 +452,7 @@
             app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/path" />
+            app:srcCompat="@drawable/ui_path" />
 
         <ImageButton
             android:id="@+id/btnSettings"
@@ -467,7 +467,7 @@
             app:layout_constraintHorizontal_bias="0.572"
             app:layout_constraintStart_toEndOf="@+id/btnPath"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/settings" />
+            app:srcCompat="@drawable/ui_settings" />
 
         <TextView
             android:id="@+id/textView5"
