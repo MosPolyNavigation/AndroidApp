@@ -16,6 +16,6 @@ class StartScreenActivity : AppCompatActivity() {
             val intent = Intent(this, CampusActivity::class.java)
             startActivity(intent)
             finish()
-        }, 3000)
+        }, 1500)
     }
 }

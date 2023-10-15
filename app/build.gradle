@@ -34,8 +34,9 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.code.gson:gson:2.10.1'
-    implementation 'com.otaliastudios:zoomlayout:1.9.0'
+    //implementation 'com.github.tarek360.RichPath:animator:0.1.1'  // for SVG
+    implementation 'com.google.code.gson:gson:2.10.1'               // for JSON
+    implementation 'com.otaliastudios:zoomlayout:1.9.0'             // for zoom image
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'

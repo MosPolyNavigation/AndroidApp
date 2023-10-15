@@ -26,15 +26,15 @@ class CampusActivity : AppCompatActivity() {
 //БС
         val btn_Sem: Button = findViewById(R.id.btn_Sem)
         btn_Sem.setOnClickListener {
-
-            intent = Intent(this, BSCorpusListActivity::class.java)
+            intent = Intent(this, WebViewActivity::class.java)
+//            intent = Intent(this, BSCorpusListActivity::class.java)
             startActivity(intent)
         }
 //ПК
         val btn_Pvl: Button = findViewById(R.id.btn_Pvl)
         btn_Pvl.setOnClickListener {
-
-            intent = Intent(this, PKCorpusListActivity::class.java)
+            intent = Intent(this, SvgTestActivity::class.java)
+//            intent = Intent(this, PKCorpusListActivity::class.java)
             startActivity(intent)
         }
 //михалковская
