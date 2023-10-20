@@ -4,6 +4,7 @@
        name: название цвета по-английски-->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey_web">#1E1E1E</color>
     <color name="grey">#FF797979</color>
     <color name="grey_light">#FFBDBDBD</color>
     <color name="grey_dark">#FF2E2E2E</color>

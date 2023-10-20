@@ -13,9 +13,9 @@ class StartScreenActivity : AppCompatActivity() {
 
         val handler = Handler()
         handler.postDelayed({
-            val intent = Intent(this, CampusActivity::class.java)
+            val intent = Intent(this, WebViewActivity::class.java)
             startActivity(intent)
             finish()
-        }, 1500)
+        }, 2000)
     }
 }
