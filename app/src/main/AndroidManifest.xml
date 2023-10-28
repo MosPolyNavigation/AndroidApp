@@ -17,52 +17,14 @@
             android:name=".view.WebViewActivity"
             android:exported="false" />
         <activity
-            android:name=".view.CorpusListActivity"
-            android:exported="false" />
-        <activity
-            android:name=".view.BSCorpusListActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".view.PKCorpusListActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".view.MikhCorpusListActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".view.PrCorpusListActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".view.AvtCorpusListActivity"
-            android:exported="false"
-            android:parentActivityName=".view.CampusActivity" />
-        <activity
-            android:name=".view.AvtCorpus5Activity"
-            android:exported="false"
-            android:parentActivityName=".view.CampusActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".view.SettingsActivity"
-            android:exported="false"
-            android:parentActivityName=".view.AvtCorpus5Activity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".view.StartScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".view.CampusActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
