@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     style="@style/BACKGROUND"
-    tools:context=".SplashActivity">
+    tools:context=".view.StartScreenActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:textAllCaps="true"
-        android:text="@string/Moscow_Polytech_Genitive"
+        android:text="@string/moscow_polytech_genitive"
         style="@style/TEXT"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="38dp"
         android:fontFamily="sans-serif-black"
         android:textAllCaps="true"
-        android:text="@string/Hull_map"
+        android:text="@string/hull_map"
         android:textAlignment="center"
         style="@style/TEXT"
         android:textSize="26sp"
