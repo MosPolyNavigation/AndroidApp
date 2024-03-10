@@ -16,7 +16,12 @@
         tools:targetApi="34"
         >
         <activity
+            android:name=".view.ErrorActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
             android:name=".view.WebViewActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".view.StartScreenActivity"

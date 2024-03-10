@@ -18,8 +18,9 @@ class WebViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
+        val thisActivity = this
         // поиск и присвоение WebView переменной
-        val webView: WebView = findViewById(R.id.webView);
+        val webView: WebView = findViewById(R.id.webView)
         // обработка события "назад"
         val callback = object : OnBackPressedCallback(true) {
             var isExit = false
@@ -29,11 +30,11 @@ class WebViewActivity : AppCompatActivity() {
                     webView.goBack()
                 } else {
                     if (isExit)
-                        finish()
+                        finishAffinity()
                     else {
                         Toast.makeText(
                             baseContext,
-                            "Повторите действие чтобы выйти",
+                            "Повторите действие, чтобы выйти",
                             Toast.LENGTH_LONG
                         ).show()
                         isExit = true
@@ -50,6 +51,9 @@ class WebViewActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         // разрешить сайтам доступ к хранилищу
         webView.settings.domStorageEnabled = true
+        // зум страниц
+        webView.settings.builtInZoomControls = true
+        webView.settings.displayZoomControls = false
         // смена масштаба
         webView.settings.useWideViewPort = true
         webView.setInitialScale(1);
@@ -66,6 +70,7 @@ class WebViewActivity : AppCompatActivity() {
                     true
                 } else false
             }
+
             // обработка ошибок при загрузке
             override fun onReceivedError(
                 view: WebView?,
@@ -80,7 +85,11 @@ class WebViewActivity : AppCompatActivity() {
                 if (webView.canGoBack()) {
                     webView.goBack()
                 }
-                Toast.makeText(baseContext, "Ошибка", Toast.LENGTH_LONG).show()
+
+                val intent = Intent(thisActivity, ErrorActivity::class.java)
+                startActivity(intent)
+
+                finish()
             }
         }
         webView.loadUrl("https://mospolynavigation.github.io/dod/")
