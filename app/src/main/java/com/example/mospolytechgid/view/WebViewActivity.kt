@@ -12,12 +12,21 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mospolytechgid.R
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.analytics.ktx.analytics
+import com.google.firebase.ktx.Firebase
 
 class WebViewActivity : AppCompatActivity() {
+
+    private lateinit var analytics: FirebaseAnalytics
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
+
+        analytics = Firebase.analytics
+        analytics.logEvent("WebViewMode",null)
+
         val thisActivity = this
         // поиск и присвоение WebView переменной
         val webView: WebView = findViewById(R.id.webView)

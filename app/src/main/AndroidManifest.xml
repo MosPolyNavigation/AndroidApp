@@ -14,7 +14,11 @@
         android:theme="@style/Theme.MospolytechGid"
         android:enableOnBackInvokedCallback="true"
         tools:targetApi="34"
+
         >
+
+        <meta-data android:name="google_analytics_automatic_screen_reporting_enabled" android:value="false" />
+
         <activity
             android:name=".view.ErrorActivity"
             android:screenOrientation="portrait"
