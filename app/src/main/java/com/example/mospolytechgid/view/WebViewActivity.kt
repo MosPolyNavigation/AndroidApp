@@ -101,6 +101,6 @@ class WebViewActivity : AppCompatActivity() {
                 finish()
             }
         }
-        webView.loadUrl("https://lonanl.github.io/navigation/")
+        webView.loadUrl("https://mospolynavigation.github.io/web/")
     }
 }
