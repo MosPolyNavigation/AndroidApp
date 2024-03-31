@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.WebViewActivity">
+    tools:context=".view.WebViewActivity"
+    android:background="#202125">
 
     <WebView
         android:id="@+id/webView"
+        android:background="#202125"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
