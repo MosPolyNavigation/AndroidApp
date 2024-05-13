@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Карта Мосполитеха</string>
-    <string name="moscow_polytech_genitive">Московского Политеха</string>
-    <string name="hull_map">Карта корпусов</string>
-    <string name="annotation">Разработано студентами с любовью и заботой о Вас</string>
+    <string name="app_name">Путеводитель Мосполитеха</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="error_header">К сожалению, не удалось загрузить карту.</string>
+    <string name="error_message">Проверьте подключение к интернету.</string>
+    <string name="error_action">Назад</string>
 </resources>

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="grey_web">#1E1E1E</color>
-    <color name="grey">#FF797979</color>
-    <color name="grey_light">#FFBDBDBD</color>
-    <color name="grey_dark">#FF2E2E2E</color>
-    <color name="grey_dark2">#2E2E2E</color>
-    <color name="grey_black">#202125</color>
-    <color name="ic_launcher_background">#E91E63</color>
-    <color name="transparent">#00BDBDBD</color>
+    <color name="background">#1E1E1E</color>
+    <color name="black">#1E1E1E</color>
+    <color name="text">#A0A4AD</color>
 </resources>
